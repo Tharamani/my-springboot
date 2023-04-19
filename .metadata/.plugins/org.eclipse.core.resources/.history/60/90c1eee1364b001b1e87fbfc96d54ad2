@@ -1,0 +1,10 @@
+package com.javalearning.springboot.crudemployeedemo.dao.copy;
+
+import java.util.List;
+
+import com.javalearning.springboot.crudemployeedemo.entity.Employee;
+
+public interface EmployeeDAO {
+
+	public  List<Employee> getEmployees();
+}

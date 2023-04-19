@@ -1,0 +1,16 @@
+/**
+ * @author Thara
+ *created date : 4 Jan 2021
+ *created time:  10:56:24 am 
+ */
+package com.javalearning.springboot.thymeleafdemo.exception;
+
+/**
+ * @author Thara
+ *created date : 4 Jan 2021
+ *created time:  10:56:24 am 
+ */
+public class EmployeeMessage {
+
+	
+}

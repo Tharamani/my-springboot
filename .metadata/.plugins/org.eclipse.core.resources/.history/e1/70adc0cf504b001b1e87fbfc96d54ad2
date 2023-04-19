@@ -1,0 +1,5 @@
+package com.javalearning.springboot.crudemployeedemo.dao;
+
+public class EmployeeDAOJAPImpl implements EmployeeDAO{
+
+}

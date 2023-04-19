@@ -1,0 +1,15 @@
+/**
+ * @author Thara
+ *created date : 4 Jan 2021
+ *created time:  10:55:46 am 
+ */
+package com.javalearning.springboot.thymeleafdemo.exception;
+
+/**
+ * @author Thara
+ *created date : 4 Jan 2021
+ *created time:  10:55:46 am 
+ */
+public class EmployeeNotFoundException extends RuntimeException {
+
+}

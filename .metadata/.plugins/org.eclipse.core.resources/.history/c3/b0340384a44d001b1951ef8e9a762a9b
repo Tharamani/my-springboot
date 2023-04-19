@@ -1,0 +1,15 @@
+.funny {
+	font-style: italic;
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: green;
+	font-size: 40px;
+	border-style: solid;
+}
+
+.add{
+	font-style: bold;
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: black;
+	font-size: 40px;
+	border-style: solid;
+}

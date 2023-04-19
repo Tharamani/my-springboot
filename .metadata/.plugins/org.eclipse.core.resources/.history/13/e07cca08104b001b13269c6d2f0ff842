@@ -1,0 +1,10 @@
+server.port=8182
+#APP INFO
+info.app.main=My Super springboot app
+info.app.description=A crazy fun app ,yooyoo!
+info.app.version=1.0.0
+
+# Use wildcard "*" to expose all endpoints
+# Can also expose individual endpoints with a comma-delimited list
+
+management.endpoints.we.exposure.include=*

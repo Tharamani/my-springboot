@@ -1,0 +1,5 @@
+package com.javalearning.springboot.crudemployeedemo.service;
+
+public interface EmployeeService {
+
+}

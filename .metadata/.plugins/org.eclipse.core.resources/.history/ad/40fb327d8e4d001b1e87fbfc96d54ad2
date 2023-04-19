@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Thymeleaf Hello-World</title>
+<!-- refrence CSS file -->
+<link rel="stylesheet" th:href="@{/css/demo.css}" />
+
+<!-- 3rd party CSS library - Bootstrap(refer to local installation) -->
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+
+<link rel="stylesheet" th:href="@{/css/demo.css}" />
+
+</head>
+<body>
+<h2>Thymeleaf Hello-World</h2>
+<p th:text="'Time on the server is : ' + ${serverDate}"  class="funny"/>
+</body>
+</html>

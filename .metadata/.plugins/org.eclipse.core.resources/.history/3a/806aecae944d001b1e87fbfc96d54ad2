@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Employees lists</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstarp.min.css" />
+</head>
+
+<body>
+	<div class="container">
+		<h3>Employee Directory</h3>
+
+		<hr>
+
+		<table border="1" class="table table-border table-striped">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr th:each="varEmployee : ${employees}">
+					<td th:text="${varEmployee.firstName}" />
+					<td th:text="${varEmployee.lastName}" />
+					<td th:text="${varEmployee.email}" />
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

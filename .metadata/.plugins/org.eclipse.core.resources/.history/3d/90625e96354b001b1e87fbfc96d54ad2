@@ -1,0 +1,22 @@
+package com.javalearning.springboot.crudemployeedemo.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "employee")
+public class Employee {
+
+	// define fields
+	// define constructors
+
+	// define getter/setter
+
+	// define tostring
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String email;
+
+}

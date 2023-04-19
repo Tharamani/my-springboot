@@ -1,0 +1,22 @@
+/**
+ * @author Thara
+ *created date : 3 Jan 2021
+ *created time:  4:49:59 pm 
+ */
+package com.javalearning.springboot.thymeleafdemo;
+
+/**
+ * @author vishu
+ *
+ */
+public class test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

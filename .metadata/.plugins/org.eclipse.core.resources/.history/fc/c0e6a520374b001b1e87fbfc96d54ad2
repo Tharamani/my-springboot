@@ -1,0 +1,14 @@
+package com.javalearning.springboot.crudemployeedemo.dao;
+
+import java.util.List;
+
+import com.javalearning.springboot.crudemployeedemo.entity.Employee;
+
+public class EmployeeDAOHibernateImpl implements EmployeeDAO {
+
+	@Override
+	public List<Employee> getEmployees() {
+		return null;
+	}
+
+}

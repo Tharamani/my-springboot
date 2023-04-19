@@ -1,0 +1,5 @@
+package com.javalearning.springboot.rest;
+
+public class FunRestController {
+
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Thymeleaf Add Employee</title>
+
+</head>
+<body>
+<h2>Add Employee</h2>
+<form th:text="'Time on the server is : ' + ${serverDate}"  class="funny">
+
+</form>
+</body>
+</html>

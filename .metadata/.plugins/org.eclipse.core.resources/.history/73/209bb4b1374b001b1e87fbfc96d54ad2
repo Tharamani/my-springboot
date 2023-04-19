@@ -1,0 +1,26 @@
+package com.javalearning.springboot.crudemployeedemo.dao;
+
+import java.util.List;
+import javax.persistence.EntityManager;
+
+import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.javalearning.springboot.crudemployeedemo.entity.Employee;
+
+public class EmployeeDAOHibernateImpl implements EmployeeDAO {
+	
+	private EntityManager manager;
+	
+	@Autowired
+	public EmployeeDAOHibernateImpl(EntityManager manager) {
+		this.manager = manager;
+	}
+
+	@Override
+	public List<Employee> getEmployees() {
+		Session session = manager.unwrap(Session.class);
+		return null;
+	}
+
+}

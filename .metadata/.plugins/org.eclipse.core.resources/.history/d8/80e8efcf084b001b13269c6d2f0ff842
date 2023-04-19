@@ -1,0 +1,14 @@
+/**
+ * @author Thara
+ * created date and time :31 Dec 2020 9:36:29 am
+ * 
+ */
+package com.javalearning.springboot.rest;
+
+/**
+ * @author  Thara
+ * created date and time :31 Dec 2020 9:36:29 am
+ */
+public class FunRestController {
+
+}

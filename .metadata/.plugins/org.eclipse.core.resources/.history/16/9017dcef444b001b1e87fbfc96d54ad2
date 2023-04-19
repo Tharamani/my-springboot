@@ -1,0 +1,67 @@
+package com.javalearning.springboot.crudemployeedemo.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import org.hibernate.Session;
+import org.hibernate.query.Query;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.javalearning.springboot.crudemployeedemo.entity.Employee;
+
+@Repository
+public class EmployeeDAOHibernateImpl implements EmployeeDAO {
+
+	//define field for entitymanager
+	private EntityManager manager;
+
+	//set up constructor injection
+	@Autowired
+	public EmployeeDAOHibernateImpl(EntityManager manager) {
+		this.manager = manager;
+	}
+
+	@Override
+	@Transactional
+	public List<Employee> getEmployees() {
+		//get the current  hibernate session
+		Session session = manager.unwrap(Session.class);
+		
+		//execute query and get result list
+		Query<Employee> query = session.createQuery("from Employee", Employee.class);
+		List<Employee> employees = query.getResultList();
+
+		return employees;
+	}
+
+	@Override
+	@Transactional
+	public Employee getEmployeeById(int employeeId) {
+		//get the current  hibernate session
+		Session session = manager.unwrap(Session.class);
+		
+		//get employee
+		Employee employee = session.get(Employee.class,employeeId);
+		
+		//return employee
+		return employee;
+	}
+
+	@Override
+	@Transactional
+	public void saveEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	@Transactional
+	public void deleteEmployeeById(int employeeId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

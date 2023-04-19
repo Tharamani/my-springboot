@@ -1,0 +1,9 @@
+# change server port
+server.port=8181
+#
+# JDBC properties
+#
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc://localhost:3306/employee_directory?useSSL=false&serverTimezone=UTC
+spring.datasource.username=springstudent
+spring.datasource.password=springstudent

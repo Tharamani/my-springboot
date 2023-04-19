@@ -1,0 +1,20 @@
+server.port=8182
+#APP INFO
+info.app.main=My Super springboot app
+info.app.description=A crazy fun app ,yooyoo!
+info.app.version=1.0.0
+
+# Use wildcard "*" to expose all endpoints
+# Can also expose individual endpoints with a comma-delimited list
+#
+management.endpoints.web.exposure.include=*
+management.endpoints.web.exposure.exclude=health,info
+
+
+#override security username and password
+spring.security.user.name=scott
+spring.security.user.password=tiger
+
+# define properties 
+coach.name=mickey mouse
+team.name=mouse club

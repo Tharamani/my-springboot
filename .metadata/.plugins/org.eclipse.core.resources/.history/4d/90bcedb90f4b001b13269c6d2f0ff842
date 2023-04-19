@@ -1,0 +1,4 @@
+server.port=8182
+info.app.main=My Super springboot app
+info.app.description=A crazy fun app ,yooyoo!
+info.app.version=1.0.0
